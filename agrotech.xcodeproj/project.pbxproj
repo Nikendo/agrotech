@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		44298D8A237B353700407857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D89237B353700407857 /* AppDelegate.swift */; };
 		44298D8C237B353700407857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D8B237B353700407857 /* SceneDelegate.swift */; };
-		44298D8E237B353700407857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D8D237B353700407857 /* ViewController.swift */; };
+		44298D8E237B353700407857 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D8D237B353700407857 /* MainVC.swift */; };
 		44298D91237B353700407857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44298D8F237B353700407857 /* Main.storyboard */; };
 		44298D93237B353800407857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44298D92237B353800407857 /* Assets.xcassets */; };
 		44298D96237B353800407857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44298D94237B353800407857 /* LaunchScreen.storyboard */; };
 		44298DA1237B353800407857 /* agrotechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DA0237B353800407857 /* agrotechTests.swift */; };
 		44298DAC237B353800407857 /* agrotechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DAB237B353800407857 /* agrotechUITests.swift */; };
+		44298DBC237B43BA00407857 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DBB237B43BA00407857 /* MainPresenter.swift */; };
+		44298DBE237B461B00407857 /* BrandsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DBD237B461B00407857 /* BrandsInfo.swift */; };
+		44298DC0237B4B3800407857 /* UIView+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DBF237B4B3800407857 /* UIView+LayoutAnchors.swift */; };
+		44298DC5237B559700407857 /* BrandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DC3237B559700407857 /* BrandInfoVC.swift */; };
+		44298DC6237B559700407857 /* BrandInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44298DC4237B559700407857 /* BrandInfoVC.xib */; };
+		44298DC8237B6CDF00407857 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DC7237B6CDF00407857 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		44298D86237B353700407857 /* agrotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agrotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44298D89237B353700407857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44298D8B237B353700407857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44298D8D237B353700407857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44298D8D237B353700407857 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		44298D90237B353700407857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44298D92237B353800407857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44298D95237B353800407857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		44298DA7237B353800407857 /* agrotechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = agrotechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44298DAB237B353800407857 /* agrotechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agrotechUITests.swift; sourceTree = "<group>"; };
 		44298DAD237B353800407857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44298DBB237B43BA00407857 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		44298DBD237B461B00407857 /* BrandsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsInfo.swift; sourceTree = "<group>"; };
+		44298DBF237B4B3800407857 /* UIView+LayoutAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		44298DC3237B559700407857 /* BrandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandInfoVC.swift; sourceTree = "<group>"; };
+		44298DC4237B559700407857 /* BrandInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandInfoVC.xib; sourceTree = "<group>"; };
+		44298DC7237B6CDF00407857 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,14 @@
 		44298D88237B353700407857 /* agrotech */ = {
 			isa = PBXGroup;
 			children = (
+				44298DB9237B423800407857 /* UserCases */,
 				44298D89237B353700407857 /* AppDelegate.swift */,
 				44298D8B237B353700407857 /* SceneDelegate.swift */,
-				44298D8D237B353700407857 /* ViewController.swift */,
-				44298D8F237B353700407857 /* Main.storyboard */,
 				44298D92237B353800407857 /* Assets.xcassets */,
 				44298D94237B353800407857 /* LaunchScreen.storyboard */,
 				44298D97237B353800407857 /* Info.plist */,
+				44298DBF237B4B3800407857 /* UIView+LayoutAnchors.swift */,
+				44298DC7237B6CDF00407857 /* Colors.swift */,
 			);
 			path = agrotech;
 			sourceTree = "<group>";
@@ -126,6 +139,43 @@
 				44298DAD237B353800407857 /* Info.plist */,
 			);
 			path = agrotechUITests;
+			sourceTree = "<group>";
+		};
+		44298DB9237B423800407857 /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				44298DC1237B552700407857 /* BrandInfo */,
+				44298DBA237B428C00407857 /* Main */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		44298DBA237B428C00407857 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				44298D8D237B353700407857 /* MainVC.swift */,
+				44298D8F237B353700407857 /* Main.storyboard */,
+				44298DBB237B43BA00407857 /* MainPresenter.swift */,
+				44298DBD237B461B00407857 /* BrandsInfo.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		44298DC1237B552700407857 /* BrandInfo */ = {
+			isa = PBXGroup;
+			children = (
+				44298DC2237B553900407857 /* View */,
+			);
+			path = BrandInfo;
+			sourceTree = "<group>";
+		};
+		44298DC2237B553900407857 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44298DC3237B559700407857 /* BrandInfoVC.swift */,
+				44298DC4237B559700407857 /* BrandInfoVC.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44298DC6237B559700407857 /* BrandInfoVC.xib in Resources */,
 				44298D96237B353800407857 /* LaunchScreen.storyboard in Resources */,
 				44298D93237B353800407857 /* Assets.xcassets in Resources */,
 				44298D91237B353700407857 /* Main.storyboard in Resources */,
@@ -259,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44298D8E237B353700407857 /* ViewController.swift in Sources */,
+				44298D8E237B353700407857 /* MainVC.swift in Sources */,
+				44298DC8237B6CDF00407857 /* Colors.swift in Sources */,
 				44298D8A237B353700407857 /* AppDelegate.swift in Sources */,
+				44298DBE237B461B00407857 /* BrandsInfo.swift in Sources */,
+				44298DC0237B4B3800407857 /* UIView+LayoutAnchors.swift in Sources */,
+				44298DC5237B559700407857 /* BrandInfoVC.swift in Sources */,
 				44298D8C237B353700407857 /* SceneDelegate.swift in Sources */,
+				44298DBC237B43BA00407857 /* MainPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
