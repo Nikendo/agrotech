@@ -66,3 +66,30 @@ extension UIView {
         translatesAutoresizingMaskIntoConstraints = false
     }
 }
+
+extension UIView {
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+}
+
+extension UITableViewCell {
+    static var identifier: String { return String(describing: self.self) }
+
+    class var nib: UINib {
+        return UINib(nibName: identifier, bundle: nil)
+    }
+    
+    func register<Cell>(
+        cell: Cell.Type,
+        forCellReuseIdentifier reuseIdentifier: String = Cell.identifier
+        ) where Cell: UITableViewCell {
+        register(cell: cell, forCellReuseIdentifier: reuseIdentifier)
+    }
+}

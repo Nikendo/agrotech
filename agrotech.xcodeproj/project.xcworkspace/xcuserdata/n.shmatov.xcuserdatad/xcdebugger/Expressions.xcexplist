@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "MainVC.tableView(_:cellForRowAt:):MainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BrandCell.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "MainVC.tableView(_:numberOfRowsInSection:):MainVC.swift">
          <PersistentStrings>
             <PersistentString

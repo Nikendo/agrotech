@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440BE5812381CE5700862431 /* UIDevice+iPhoneTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BE5802381CE5700862431 /* UIDevice+iPhoneTypes.swift */; };
 		44298D8A237B353700407857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D89237B353700407857 /* AppDelegate.swift */; };
 		44298D8C237B353700407857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D8B237B353700407857 /* SceneDelegate.swift */; };
 		44298D8E237B353700407857 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298D8D237B353700407857 /* MainVC.swift */; };
@@ -21,6 +22,8 @@
 		44298DC5237B559700407857 /* BrandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DC3237B559700407857 /* BrandInfoVC.swift */; };
 		44298DC6237B559700407857 /* BrandInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44298DC4237B559700407857 /* BrandInfoVC.xib */; };
 		44298DC8237B6CDF00407857 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44298DC7237B6CDF00407857 /* Colors.swift */; };
+		447FA96F23809F8A00EC80FD /* BrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FA96D23809F8A00EC80FD /* BrandCell.swift */; };
+		447FA97023809F8A00EC80FD /* BrandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447FA96E23809F8A00EC80FD /* BrandCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		440BE5802381CE5700862431 /* UIDevice+iPhoneTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+iPhoneTypes.swift"; sourceTree = "<group>"; };
 		44298D86237B353700407857 /* agrotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agrotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44298D89237B353700407857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44298D8B237B353700407857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		44298DC3237B559700407857 /* BrandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandInfoVC.swift; sourceTree = "<group>"; };
 		44298DC4237B559700407857 /* BrandInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandInfoVC.xib; sourceTree = "<group>"; };
 		44298DC7237B6CDF00407857 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		447FA96D23809F8A00EC80FD /* BrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCell.swift; sourceTree = "<group>"; };
+		447FA96E23809F8A00EC80FD /* BrandCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 				44298D97237B353800407857 /* Info.plist */,
 				44298DBF237B4B3800407857 /* UIView+LayoutAnchors.swift */,
 				44298DC7237B6CDF00407857 /* Colors.swift */,
+				440BE5802381CE5700862431 /* UIDevice+iPhoneTypes.swift */,
 			);
 			path = agrotech;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 		44298DB9237B423800407857 /* UserCases */ = {
 			isa = PBXGroup;
 			children = (
+				447FA9682380353600EC80FD /* Cells */,
 				44298DC1237B552700407857 /* BrandInfo */,
 				44298DBA237B428C00407857 /* Main */,
 			);
@@ -176,6 +184,15 @@
 				44298DC4237B559700407857 /* BrandInfoVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		447FA9682380353600EC80FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				447FA96D23809F8A00EC80FD /* BrandCell.swift */,
+				447FA96E23809F8A00EC80FD /* BrandCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +303,7 @@
 				44298D96237B353800407857 /* LaunchScreen.storyboard in Resources */,
 				44298D93237B353800407857 /* Assets.xcassets in Resources */,
 				44298D91237B353700407857 /* Main.storyboard in Resources */,
+				447FA97023809F8A00EC80FD /* BrandCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +333,8 @@
 				44298D8A237B353700407857 /* AppDelegate.swift in Sources */,
 				44298DBE237B461B00407857 /* BrandsInfo.swift in Sources */,
 				44298DC0237B4B3800407857 /* UIView+LayoutAnchors.swift in Sources */,
+				447FA96F23809F8A00EC80FD /* BrandCell.swift in Sources */,
+				440BE5812381CE5700862431 /* UIDevice+iPhoneTypes.swift in Sources */,
 				44298DC5237B559700407857 /* BrandInfoVC.swift in Sources */,
 				44298D8C237B353700407857 /* SceneDelegate.swift in Sources */,
 				44298DBC237B43BA00407857 /* MainPresenter.swift in Sources */,

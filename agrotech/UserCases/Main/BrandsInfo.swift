@@ -15,6 +15,7 @@ struct BrandsInfo {
 struct BrandModel {
     var type: AgroBrand
     var image: UIImage?
+    var logo: UIImage?
     var name: String
     var description: String
 }
